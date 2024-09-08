@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical">
+
+            <!-- Logo -->
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo"
+                android:contentDescription="@string/contentDesLogo"
+                android:layout_marginEnd="16dp" />
+
+            <!-- University name -->
+            <TextView
+                android:id="@+id/university_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uni_name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Profile Picture -->
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/profile_picture"
+                android:contentDescription="@string/contentDesProfilePic"
+                android:layout_gravity="center" />
+
+            <!-- Name -->
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                android:paddingTop="16dp" />
+
+            <!-- Department -->
+            <!--android:layout_gravity="center"-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/department"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/department"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:id="@+id/departmentName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/departmentName"
+                android:textSize="16sp"
+                android:paddingLeft="2dp"
+                android:textColor="@android:color/black"
+                android:paddingTop="8dp" />
+
+        </LinearLayout>
+
+            <!-- Batch -->
+            <!-- android:layout_gravity="center"-->
+            <!--android:paddingTop="16dp"-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/batch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/batch"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"
+                    android:paddingTop="8dp" />
+
+                <TextView
+                    android:id="@+id/batchNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/batchNum"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="5dp"
+                    android:textColor="@android:color/black"
+                    android:paddingTop="8dp" />
+
+            </LinearLayout>
+
+            <!--Registration Number-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/registration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/registration"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"
+                    android:paddingTop="8dp" />
+
+                <TextView
+                    android:id="@+id/registrationNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/registrationNum"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="5dp"
+                    android:textColor="@android:color/black"
+                    android:paddingTop="8dp" />
+
+            </LinearLayout>
+
+            <!--Hall-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/hall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hall"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"
+                    android:paddingTop="8dp" />
+
+                <TextView
+                    android:id="@+id/hallName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hallName"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="5dp"
+                    android:textColor="@android:color/black"
+                    android:paddingTop="8dp" />
+
+            </LinearLayout>
+
+            <!--Blood group-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/bloodGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bloodGroup"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"
+                    android:paddingTop="8dp" />
+
+                <TextView
+                    android:id="@+id/bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bg"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="5dp"
+                    android:textColor="@android:color/black"
+                    android:paddingTop="8dp" />
+
+            </LinearLayout>
+
+            <!-- Contact Number -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="16dp">
+
+                <ImageView
+                    android:id="@+id/phone_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_phone"
+                android:contentDescription="@string/contentDesPhoneIcon"
+                android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/contact_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phonenum"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:clickable="true"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!-- Email -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="8dp">
+
+                <ImageView
+                    android:id="@+id/email_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_email"
+                android:contentDescription="@string/contentDesEmailIcon"
+                android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:clickable="true"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!-- LinkedIn -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="8dp">
+
+                <ImageView
+                    android:id="@+id/linkedin_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_linkedin"
+                android:contentDescription="@string/contentDesLinkedinIcon"
+                android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/linkedin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/linkedin"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:clickable="true"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!-- WhatsApp -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="8dp">
+
+                <ImageView
+                    android:id="@+id/whatsapp_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_whatsapp"
+                android:contentDescription="@string/contentDesWPIcon"
+                android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/whatsapp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/whatsapp"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:clickable="true"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
