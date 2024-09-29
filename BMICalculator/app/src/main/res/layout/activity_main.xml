@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!--Title-->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- BMI Table Heading -->
+    <TextView
+        android:id="@+id/bmiTableHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmiTableHeading"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- BMI Table Content -->
+    <TextView
+        android:id="@+id/bmiTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmiTable"
+        android:textSize="18sp" />
+
+    <!-- Healthy BMI Range -->
+    <TextView
+        android:id="@+id/healthyRange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/healthyRange"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Button to Calculate BMI -->
+    <Button
+        android:id="@+id/btnCalculateBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCalculateBMI"
+        android:layout_gravity="center" />
+
+</LinearLayout>

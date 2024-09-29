@@ -21,7 +21,6 @@
             android:padding="16dp"
             android:gravity="center_vertical">
 
-            <!-- Logo -->
             <ImageView
                 android:id="@+id/logo"
                 android:layout_width="50dp"
@@ -30,7 +29,6 @@
                 android:contentDescription="@string/contentDesLogo"
                 android:layout_marginEnd="16dp" />
 
-            <!-- University name -->
             <TextView
                 android:id="@+id/university_name"
                 android:layout_width="wrap_content"
@@ -48,7 +46,6 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <!-- Profile Picture -->
             <ImageView
                 android:id="@+id/profile_image"
                 android:layout_width="150dp"
@@ -58,7 +55,6 @@
                 android:contentDescription="@string/contentDesProfilePic"
                 android:layout_gravity="center" />
 
-            <!-- Name -->
             <TextView
                 android:id="@+id/name"
                 android:layout_width="wrap_content"
@@ -70,8 +66,6 @@
                 android:textColor="@android:color/black"
                 android:paddingTop="16dp" />
 
-            <!-- Department -->
-            <!--android:layout_gravity="center"-->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -95,15 +89,12 @@
                 android:layout_height="wrap_content"
                 android:text="@string/departmentName"
                 android:textSize="16sp"
-                android:paddingLeft="2dp"
+                android:paddingStart="2dp"
                 android:textColor="@android:color/black"
                 android:paddingTop="8dp" />
 
         </LinearLayout>
 
-            <!-- Batch -->
-            <!-- android:layout_gravity="center"-->
-            <!--android:paddingTop="16dp"-->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -134,7 +125,6 @@
 
             </LinearLayout>
 
-            <!--Registration Number-->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

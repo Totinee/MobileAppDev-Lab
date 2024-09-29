@@ -14,11 +14,9 @@ public class ClothingFactory extends AppCompatActivity {
 
         TextView resultTextView = findViewById(R.id.resultTextView);
 
-        // Get the Intent that started this activity and extract the string
         Intent intent = getIntent();
         String selectedCategory = intent.getStringExtra("selectedCategory");
 
-        // Display the result based on the selected category
         if (selectedCategory != null) {
             switch (selectedCategory) {
                 case "Male":

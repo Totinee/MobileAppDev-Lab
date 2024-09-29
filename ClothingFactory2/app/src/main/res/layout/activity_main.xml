@@ -29,11 +29,11 @@
 
     <Button
         android:id="@+id/showDressesButton"
-        android:layout_width="355dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
         android:layout_margin="16dp"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:text="@string/button" />
+        android:layout_gravity="center"
+        android:text="@string/button"
+        android:textStyle="bold" />
 
 </LinearLayout>

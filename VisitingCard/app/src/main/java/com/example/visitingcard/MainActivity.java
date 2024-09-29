@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // click contact num, direct to dial pad
         TextView contactNumber = findViewById(R.id.contact_number);
         contactNumber.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // click email, direct to gmail app
         TextView email = findViewById(R.id.email);
         email.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // click and direct to linked in profile
         TextView linkedin = findViewById(R.id.linkedin);
         linkedin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // click and direct to whatsapp chat
         TextView whatsapp = findViewById(R.id.whatsapp);
         whatsapp.setOnClickListener(new View.OnClickListener() {
             @Override
