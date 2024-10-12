@@ -1,0 +1,249 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Header with Logo and App Name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- App Logo -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"
+            android:contentDescription="App Logo"/>
+
+        <!-- App Name -->
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gadget Forge"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"/>
+
+        <!-- Profile Icon -->
+        <ImageView
+            android:id="@+id/profileIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginStart="130dp"
+            android:background="@drawable/round_border"
+            android:contentDescription="Profile Icon"
+            android:src="@drawable/profile_icon" />
+    </LinearLayout>
+
+    <!-- Search Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@drawable/search_bar_background">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="40dp"
+            android:contentDescription="Search Icon"
+            android:src="@drawable/ic_search" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Search products, brands, anything"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- Categories Section -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:padding="0dp">
+
+        <!-- Example Category Icons -->
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:padding="16dp"
+            android:src="@drawable/laptop_icon"
+            android:contentDescription="Laptop Category"/>
+
+        <ImageView
+<<<<<<< HEAD
+            android:id="@+id/desktopIcon"
+=======
+>>>>>>> c8c3642cde28ac18ae19ec290ce862bf3b2797c5
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:src="@drawable/desktop_icon"
+            android:contentDescription="Desktop Category"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:padding="6dp"
+            android:src="@drawable/processor_icon"
+            android:contentDescription="Processor Category"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/graphics_card_icon"
+            android:contentDescription="Graphics Card Category"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:padding="6dp"
+            android:src="@drawable/iot_components_icon"
+            android:contentDescription="IOT Category"/>
+
+        <!-- Add more categories similarly -->
+
+    </GridLayout>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:padding="0dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Laptops"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Desktops"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Processors"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Graphics Cards"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="IOT Parts"/>
+
+    </GridLayout>
+
+    <!-- PC Builder and Compare Products Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="PC Builder"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/black"
+            android:text="Compare Products"/>
+    </LinearLayout>
+
+    <!-- Featured Products (optional) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Featured Products"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"/>
+
+    <!-- Grid of featured products can be added here (like the one for categories) -->
+
+    <!-- Gadgetron AI Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+<!--        android:background="@drawable/gadgetron_background"-->
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/gadgetronTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gadgetron AI Assistant"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="@color/black"/>
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/gadgetronDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tell me your requirements, so I can help you decide better."
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:background="@drawable/rounded_border"
+            android:textColor="@color/black"/>
+
+        <!-- Request AI Solution Button -->
+        <Button
+            android:id="@+id/btnRequestAI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get AI Recommendations"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="12dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ID Card</string>
+    <string name="logo">Institution Logo</string>
+    <string name="profile_picture">Profile Picture</string>
+</resources>

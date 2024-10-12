@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Clothing Factory</string>
+    <string-array name="category_array">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Child</item>
+    </string-array>
+    <string name="headline">Clothing Factory</string>
+    <string name="button">Show Dresses</string>
+</resources>

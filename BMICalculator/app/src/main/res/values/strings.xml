@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="bmi_underweight">Underweight</string>
+    <string name="bmi_normal">Normal weight</string>
+    <string name="bmi_overweight">Overweight</string>
+    <string name="bmi_obese_1">Obese Class 1</string>
+    <string name="bmi_obese_2">Obese Class 2</string>
+    <string name="bmi_obese_3">Obese Class 3</string>
+
+    <string name="bmiTableHeading">BMI Ranges</string>
+    <string name="bmiTable">Underweight: &lt; 18.5\nNormal weight: 18.5–24.9\nOverweight: 25–29.9\nObese Class 1: 30–34.9\nObese Class 2: 35–39.9\nObese Class 3: >= 40</string>
+    <string name="healthyRange">Healthy BMI Range: 18.5–24.9\n\nFor Male: Height 175 cm, Weight 70 kg\nFor Female: Height 165 cm, Weight 60 kg</string>
+    <string name="btnCalculateBMI">Calculate My BMI</string>
+
+    <string name="editTextAge">Enter your age</string>
+    <string name="text">Select your gender</string>
+    <string name="radioMale">Male</string>
+    <string name="radioFemale">Female</string>
+    <string name="editTextHeight">Enter your height</string>
+    <string name="editTextWeight">Enter your weight</string>
+    <string name="btnResult">Result</string>
+
+    <string name="textViewResult">Your BMI is &#8230;</string>
+    <string name="textViewCategory">You are in the &#8230; category</string>
+    <string name="btnBackToHome">Back to Home</string>
+
+    <string name="title">BMI Calculator</string>
+
+</resources>

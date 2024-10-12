@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Visiting Card</string>
+    <string name="name">Hasneen Tamanna Totinee</string>
+    <string name="uni_name">Jahangirnagar University</string>
+    <string name="department">Department : </string>
+    <string name="departmentName"> Computer Science and Engineering</string>
+    <string name="batch">Batch : </string>
+    <string name="batchNum"> 49</string>
+    <string name="registration">Registration number : </string>
+    <string name="registrationNum">20200650732</string>
+    <string name="hall">Hall name : </string>
+    <string name="hallName">Sheikh Hasina Hall</string>
+    <string name="bloodGroup">Blood group : </string>
+    <string name="bg">A+</string>
+    <string name="phonenum">+8801521571755</string>
+    <string name="email">totinee.stu2019@juniv.edu</string>
+    <string name="linkedin">hasneen-tamanna-totinee</string>
+    <string name="whatsapp">+8801521571755</string>
+    <string name="contentDesLogo">University Logo</string>
+    <string name="contentDesProfilePic">Profile Picture</string>
+    <string name="contentDesPhoneIcon">Phone Icon</string>
+    <string name="contentDesEmailIcon">Email Icon</string>
+    <string name="contentDesWPIcon">Whatsapp Icon</string>
+    <string name="contentDesLinkedinIcon">Linked In Icon</string>
+</resources>
