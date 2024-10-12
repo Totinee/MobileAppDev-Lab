@@ -85,10 +85,8 @@
             android:contentDescription="Laptop Category"/>
 
         <ImageView
-<<<<<<< HEAD
+
             android:id="@+id/desktopIcon"
-=======
->>>>>>> c8c3642cde28ac18ae19ec290ce862bf3b2797c5
             android:layout_width="80dp"
             android:layout_height="60dp"
             android:padding="10dp"

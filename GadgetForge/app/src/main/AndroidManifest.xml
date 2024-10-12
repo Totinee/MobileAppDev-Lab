@@ -28,11 +28,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-        <activity android:name=".ProductActivity"></activity>
+        <activity 
+        android:name=".ProductActivity"
+        android:exported="false">
+<!--        <intent-filter>-->
+<!--            <action android:name="android.intent.action.MAIN" />-->
+<!--            <category android:name="android.intent.category.LAUNCHER" />-->
+<!--        </intent-filter>-->
+        </activity>
 
-=======
->>>>>>> c8c3642cde28ac18ae19ec290ce862bf3b2797c5
     </application>
 
 </manifest>
